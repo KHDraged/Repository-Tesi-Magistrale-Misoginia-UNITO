@@ -3,6 +3,9 @@
 
 #@title creazione dell'istanza di oggetto "reddit"
 import praw
+import pandas as pd
+import re
+import time
 
 reddit = praw.Reddit(
     client_id="IL_TUO_CLIENT_ID",
